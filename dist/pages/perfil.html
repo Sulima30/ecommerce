@@ -529,65 +529,105 @@
     </div>
     <!-- /Fullscreen search area-->
   </header>
-  <main>
+  <main class="disabled-item">
     <section class="hero">
       <div class="container">
         <div class="hero-content pb-5 text-center">
-          <h3 class="hero-heading">Hellor</h3>
+          <h2 class="hero-heading"></h2>
         </div>
       </div>
     </section>
-    <div class="container">
-      <div class="justify-content-center row">
-        <div class="col-lg-5">
-          <div class="block">
-            <div class="block-header">
-              <h6 class="text-uppercase mb-0">Acesso</h6>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 col-lg-8">
+            <div class="block mb-5">
             </div>
-            <div class="block-body">
-              <p class="lead">É Nosso Cliente ?</p>
-              <p class="text-muted">Se você já é nosso cliente, insira seus dados de acesso e realize suas compras.</p>
-              <hr>
-              <form class="">
-                <div class="mb-4">
-                  <label class="form-label" for="email_1">E-mail</label>
-                  <input type="text" id="email_1" class="form-control">
-                </div>
-                <div class="mb-4">
-                  <label class="form-label" for="password">Senha</label>
-                  <input type="password" id="password" class="form-control">
-                </div>
-                <div class="mb-4">
-                  <button type="button" class="btn btn-outline-dark" onclick="validateLogin()">Acessar</button>
-                </div>
-              </form>
-              <p id="response-message"></p>
+            <div class="block mb-5">
+              <div class="block-header"><strong class="text-uppercase">Dados Pessoais</strong></div>
+              <div class="block-body">
+                <form class="">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="mb-4"><label class="form-label form-label" for="firstname">Nome</label><input type="text" id="firstname" class="form-control"></div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="mb-4"><label class="form-label form-label" for="lastname">Sobrenome</label><input type="text" id="lastname" class="form-control"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="mb-4"><label class="form-label form-label" for="company">Profissão</label><input type="text" id="company" class="form-control"></div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="mb-4"><label class="form-label form-label" for="street">Endereço</label><input type="text" id="street" class="form-control"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                      <div class="mb-4"><label class="form-label form-label" for="city">Bairro</label><input type="text" id="city" class="form-control"></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                      <div class="mb-4"><label class="form-label form-label" for="zip">CEP</label><input type="text" id="zip" class="form-control"></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                      <div class="mb-4"><label class="form-label form-label" for="state">Estado</label><select class="form-control" id="state"></select></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                      <div class="mb-4"><label class="form-label form-label" for="country">País</label><select class="form-control" id="country"></select></div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="mb-4"><label class="form-label form-label" for="phone">Telefone</label><input type="text" id="phone" class="form-control"></div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="mb-4"><label class="form-label form-label" for="email">Email</label><input type="text" id="email" class="form-control"></div>
+                    </div>
+                  </div>
+                  <div class="text-center mt-4"><button type="submit" class="btn btn-outline-dark">
+                      </svg>Salvar Dados Cadastrais</button></div>
+                </form>
+              </div>
+              <div class="block-body">
+                <form class="">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="mb-4"><label class="form-label form-label" for="password_old">Digite sua Senha Atual</label><input type="password" id="password_old" class="form-control"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="mb-4"><label class="form-label form-label" for="password_1">Digite a Nova Senha:</label><input type="password" id="password_1" class="form-control"></div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="mb-4"><label class="form-label form-label" for="password_2">Confirma a Nova Senha:</label><input type="password" id="password_2" class="form-control"></div>
+                    </div>
+                  </div>
+                  <div class="mt-4 text-center"><button type="submit" class="btn btn-dark">
+                      </svg>Alterar Senha</button></div>
+                </form>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-5 disabled-item">
-          <div class="block">
-            <div class="block-header">
-              <h6 class="text-uppercase mb-0">Novo Acesso</h6>
-            </div>
-            <div class="block-body">
-              <p class="lead">É seu primeiro acesso ?</p>
-              <p class="text-muted">Se é o seu primeiroa acesso e você está buscando comprar nossos produtos, seja bem vindo! Realize seu cadastro e vamos às compras!</p>
-              <p class="text-muted">Caso tenha dúvidas, fique à vontade e entra em contato conosco.<a href="/contact" class="item-disable"> Atendimento</a></p>
-              <hr>
-              <form class="">
-                <div class="mb-4"><label class="form-label" for="name">Nome</label><input type="text" id="name" class="form-control"></div>
-                <div class="mb-4"><label class="form-label" for="email">Email</label><input type="text" id="email" class="form-control"></div>
-                <div class="mb-4"><label class="form-label" for="passwordRegister">Senha</label><input type="password" id="passwordRegister" class="form-control"></div>
-                <div class="mb-4"><button type="submit" class="btn btn-outline-dark"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="user" class="svg-inline--fa fa-user me-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                      <path fill="currentColor" d="M272 304h-96C78.8 304 0 382.8 0 480c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32C448 382.8 369.2 304 272 304zM48.99 464C56.89 400.9 110.8 352 176 352h96c65.16 0 119.1 48.95 127 112H48.99zM224 256c70.69 0 128-57.31 128-128c0-70.69-57.31-128-128-128S96 57.31 96 128C96 198.7 153.3 256 224 256zM224 48c44.11 0 80 35.89 80 80c0 44.11-35.89 80-80 80S144 172.1 144 128C144 83.89 179.9 48 224 48z"></path>
-                    </svg>Registrar-se</button></div>
-              </form>
+          <div class="mb-5 col-xl-3 col-lg-4">
+            <div class="customer-sidebar card border-0">
+              <div class="customer-profile"><a class="d-inline-block" href="#"><img class="img-fluid rounded-circle customer-image" src="../assets/img/groot.jpg" alt="Customer Profile Image"></a>
+                <h5>Baby Groot</h5>
+                <p class="text-muted text-sm mb-0">Pernambuco, Brasil</p>
+              </div>
+              <nav class="list-group customer-nav"><a class="list-group-item d-flex justify-content-between align-items-center" href="/customer-orders"><span><svg class="svg-icon  svg-icon-heavy me-2">
+                      <use xlink:href="#paper-bag-1"></use>
+                    </svg>Compras</span><span class=" fw-normal px-3 badge rounded-pill bg-dark">5</span></a><a class="list-group-item d-flex justify-content-between align-items-center active" href="/customer-account"><span><svg class="svg-icon  svg-icon-heavy me-2">
+                      <use xlink:href="#male-user-1"></use>
+                    </svg>Meu Perfil</span></a><a class="list-group-item d-flex justify-content-between align-items-center" href="/customer-addresses"><span><svg class="svg-icon  svg-icon-heavy me-2">
+                      <use xlink:href="#navigation-map-1"></use>
+                    </svg>Endereço</span></a><a class="list-group-item d-flex justify-content-between align-items-center" href="/customer-login"><span><svg class="svg-icon  svg-icon-heavy me-2">
+                      <use xlink:href="#exit-1"></use>
+                    </svg>Sair</span></a></nav>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </main>
   <!-- Footer-->
   <footer class="main-footer disabled-item">
@@ -754,7 +794,7 @@
   <script>
     var basePath = ''
   </script>
-  <script src="../assets/js/theme.js"></script>
+  <script src="dist/assets/js/theme.js"></script>
   <script src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/vendor/jquery.cookie/jquery.cookie.js"> </script>
   <script src="dist/assets/js/theme-color.js"></script>
 </body>

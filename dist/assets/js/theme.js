@@ -491,3 +491,19 @@ $(function () {
 
     objectFitImages();
 });
+
+
+function validateLogin() {
+  const username = document.getElementById("email_1").value;
+  const password = document.getElementById("password").value;
+
+  // Simulação de credenciais válidas
+  const validUsername = "teste@teste";
+  const validPassword = "12345";
+
+  if (username === validUsername && password === validPassword) {
+    window.location.href = "perfil.html";
+  } else {
+    document.getElementById("response-message").textContent = "Credenciais inválidas.";
+  }
+}
