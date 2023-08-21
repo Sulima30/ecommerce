@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>S & LIMA | Comércio Eletrônico</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <!-- Price Slider Stylesheets -->
+  <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/vendor/nouislider/nouislider.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="../assets/css/theme.css" id="theme-stylesheet">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/img/favicon.png">
+  <link rel="stylesheet" href="dist/assets/css/owlCarousel.css">
+  <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/regular.css" integrity="sha384-avJt9MoJH2rB4PKRsJRHZv7yiFZn8LrnXuzvmZoD3fh1aL6aM6s0BBcnCvBe6XSD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="header header-absolute">
+    <!-- Top Bar-->
+    <div class="top-bar">
+      <div class="container-fluid">
+        <div class="row d-flex align-items-center">
+          <div class="col-sm-7 d-none d-sm-block">
+            <ul class="list-inline topbar-text mb-0">
+              <a class="navbar-brand" href="index.html">
+                <img src="./dist/assets/img/Logo-Dourado-Preto-Azul.jpg" alt="" width="110">
+              </a>
+              <li class="list-inline-item pe-3 me-0">
+                <svg class="svg-icon me-2">
+                  <use xlink:href="#calls-1"></use>
+                </svg>(DDD) 91234-5678
+              </li>
+              <li class="list-inline-item px-3 border-start border-end d-none d-lg-inline-block">Frete Grátis</li>
+              <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="twitter"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="facebook"><i class="fab fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="pinterest"><i class="fab fa-pinterest"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-sm-5 d-flex justify-content-end">
+            <!-- Language Dropdown-->
+            <div class="dropdown border-end px-3"><a class="dropdown-toggle topbar-link" id="langsDropdown" href="#" data-bs-toggle="dropdown" data-bs-display="static" aria-haspopup="true" aria-expanded="false"><img class="topbar-flag" src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/img/flag/br.svg" alt="english">Português</a>
+              <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated" aria-labelledby="langsDropdown"><a class="dropdown-item text-sm" href="#"><img class="topbar-flag" src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/img/flag/us.svg" alt="german">Inglês</a><a class="dropdown-item text-sm" href="#"> <img class="topbar-flag" src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/img/flag/es.svg" alt="french">Espanhol</a></div>
+            </div>
+            <!-- Currency Dropdown-->
+            <div class="dropdown ps-3 ms-0"><a class="dropdown-toggle topbar-link" id="currencyDropdown" href="#" data-bs-toggle="dropdown" data-bs-display="static" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-dollar-sign text-xs align-middle mt-n1 me-2"> </i>BRA</a>
+              <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated" aria-labelledby="currencyDropdown"><a class="dropdown-item text-sm" href="#"> <i class="fas fa-dollar-sign text-xs align-middle mt-n1 me-2"> </i>Dólar</a><a class="dropdown-item text-sm" href="#"><i class="fas fa-euro-sign text-xs align-middle mt-n1 me-2"> </i>Euro</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Bar End-->
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg bg-transparent navbar-light navbar-airy bg-fixed-white">
+      <div class="container-fluid">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+        <!-- Navbar Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <!-- Navbar Header  -->
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link active" id="homeDropdownMenuLink" href="#quem-somos" data-bs-target="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sobre
+              </a>
+            </li>
+            <li class="nav-item dropdown position-static"><a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown">Moda Feminina</a>
+              <div class="dropdown-menu dropdown-menu-animated megamenu py-lg-0">
+                <div class="row">
+                  <div class="col-lg-9">
+                    <div class="row p-3 pe-lg-0 ps-lg-5 pt-lg-5">
+                      <div class="col-lg-3">
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Roupas</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Blusas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Camisetas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Camisas Sociais</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Vestidos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Casacos e Jaquetas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Moletom</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Calças</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Bermudas e Shorts</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Moda Praia<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Lingerie<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"><strong>Todos os Itens</strong></a></li>
+                        </ul>
+                        <!-- Megamenu list-->
+                      </div>
+                      <div class="col-lg-3">
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Calçados</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Botas e Coturnos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Chinelos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Sapatilhas<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Rasteirinhas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Sandálias</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Tamancos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Scarpins</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Mocassim</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Tênis</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"><strong>Todos os Itens</strong></a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3">
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Acessórios</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Bijuterias<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Bolsas<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Carteiras</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Cintos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Mochilas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Malas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Óculos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Relógios</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"><strong>Todos os Itens</strong></a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3">
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Mais Acessados</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Um...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Dois...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Três...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Quatro...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Cinco...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"><strong>Todos os Itens</strong></a></li>
+                        </ul>
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Outros</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Outlet</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row megamenu-services d-none d-lg-flex">
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="megamenu-services-item">
+                          <svg class="svg-icon megamenu-services-icon">
+                            <use xlink:href="#delivery-time-1"> </use>
+                          </svg>
+                          <div>
+                            <h6 class="text-uppercase">Frete Grátis &amp; Entrega Rápida</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="megamenu-services-item">
+                          <svg class="svg-icon megamenu-services-icon">
+                            <use xlink:href="#money-1"> </use>
+                          </svg>
+                          <div>
+                            <h6 class="text-uppercase">Preços Acessíveis</h6>
+                            <p class="mb-0 text-muted text-sm">Qualidade Garantida</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="megamenu-services-item">
+                          <svg class="svg-icon megamenu-services-icon">
+                            <use xlink:href="#customer-support-1"> </use>
+                          </svg>
+                          <div>
+                            <h6 class="text-uppercase">(21) 9.1234-5678</h6>
+                            <p class="mb-0 text-muted text-sm">Atendimento Humanizado</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="megamenu-services-item">
+                          <svg class="svg-icon megamenu-services-icon">
+                            <use xlink:href="#secure-payment-1"> </use>
+                          </svg>
+                          <div>
+                            <h6 class="text-uppercase">Segurança</h6>
+                            <p class="mb-0 text-muted text-sm">Pagamentos Seguros</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block position-relative"><img class="bg-image" src="./dist/assets/img/img-menu" alt=""></div>
+                </div>
+              </div>
+            </li>
+            <!-- Megamenu-->
+            <li class="nav-item dropdown position-static"><a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown">Moda Masculina</a>
+              <div class="dropdown-menu dropdown-menu-animated megamenu py-lg-0">
+                <div class="row">
+                  <div class="col-lg-9">
+                    <div class="row p-3 pe-lg-0 ps-lg-5 pt-lg-5">
+                      <div class="col-lg-3">
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Roupas</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Bermudas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Calças Sociais</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Calças Jeans</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Camisas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Camisetas Regatas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Casacos e Jaquetas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"></a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Moda Praia</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Cuecas<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Moletons<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"><strong>Todos os Itens</strong></a></li>
+                        </ul>
+                        <!-- Megamenu list-->
+                      </div>
+                      <div class="col-lg-3">
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Calçados</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Botas e Coturnos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Chinelos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Sapatênis</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Sapatos Sociais</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Sapatos Casuais</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Mocassim</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Tênis</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"><strong>Todos os Itens</strong></a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3">
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Acessórios</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Bonés<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Chápeus<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Carteiras</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Cintos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Mochilas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Malas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Óculos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Relógios</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"><strong>Todos os Itens</strong></a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3">
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Mais Acessados</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Um...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Dois...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Três...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Quatro...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Cinco...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"><strong>Todos os Itens</strong></a></li>
+                        </ul>
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Outros</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Outlet</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row megamenu-services d-none d-lg-flex">
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="megamenu-services-item">
+                          <svg class="svg-icon megamenu-services-icon">
+                            <use xlink:href="#delivery-time-1"> </use>
+                          </svg>
+                          <div>
+                            <h6 class="text-uppercase">Frete Grátis &amp; Entrega Rápida</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="megamenu-services-item">
+                          <svg class="svg-icon megamenu-services-icon">
+                            <use xlink:href="#money-1"> </use>
+                          </svg>
+                          <div>
+                            <h6 class="text-uppercase">Preços Acessíveis</h6>
+                            <p class="mb-0 text-muted text-sm">Qualidade Garantida</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="megamenu-services-item">
+                          <svg class="svg-icon megamenu-services-icon">
+                            <use xlink:href="#customer-support-1"> </use>
+                          </svg>
+                          <div>
+                            <h6 class="text-uppercase">(21) 9.1234-5678</h6>
+                            <p class="mb-0 text-muted text-sm">Atendimento Humanizado</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="megamenu-services-item">
+                          <svg class="svg-icon megamenu-services-icon">
+                            <use xlink:href="#secure-payment-1"> </use>
+                          </svg>
+                          <div>
+                            <h6 class="text-uppercase">Segurança</h6>
+                            <p class="mb-0 text-muted text-sm">Pagamentos Seguros</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block position-relative"><img class="bg-image" src="./dist/assets/img/img-menu-2" alt=""></div>
+                </div>
+              </div>
+            </li>
+            <!-- /Megamenu end-->
+            <!-- Multi level dropdown    -->
+            <li class="nav-item dropdown position-static"><a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown">Moda Infantil</a>
+              <div class="dropdown-menu dropdown-menu-animated megamenu py-lg-0">
+                <div class="row">
+                  <div class="col-lg-9">
+                    <div class="row p-3 pe-lg-0 ps-lg-5 pt-lg-5">
+                      <div class="col-lg-3">
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Roupas</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Blusas e Camisetas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Calças</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Calças Jeans</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Camisas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Casacos e Jaquetas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"></a>Conjuntos</li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Moda Praia</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Cuecas e Lingerie<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Shorts e Bermmudas<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Moletons<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Vestidos<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"><strong>Todos os Itens</strong></a></li>
+                        </ul>
+                        <!-- Megamenu list-->
+                      </div>
+                      <div class="col-lg-3">
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Calçados</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Botas e Coturnos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Chinelos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Sapatênis</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Sapatos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Sandálias</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Mocassim</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Tênis</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"><strong>Todos os Itens</strong></a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3">
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Acessórios</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Bonés<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Chápeus<span class="badge bg-warning ms-1">Novidades!</span> </a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Carteiras</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Cintos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Mochilas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Malas</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Óculos</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Relógios</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"><strong>Todos os Itens</strong></a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3">
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Mais Acessados</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Um...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Dois...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Três...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Quatro...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Iten Cinco...</a></li>
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#"><strong>Todos os Itens</strong></a></li>
+                        </ul>
+                        <!-- Megamenu list-->
+                        <h6 class="text-uppercase">Outros</h6>
+                        <ul class="megamenu-list list-unstyled">
+                          <li class="megamenu-list-item"><a class="megamenu-list-link" href="#">Outlet</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row megamenu-services d-none d-lg-flex">
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="megamenu-services-item">
+                          <svg class="svg-icon megamenu-services-icon">
+                            <use xlink:href="#delivery-time-1"> </use>
+                          </svg>
+                          <div>
+                            <h6 class="text-uppercase">Frete Grátis &amp; Entrega Rápida</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="megamenu-services-item">
+                          <svg class="svg-icon megamenu-services-icon">
+                            <use xlink:href="#money-1"> </use>
+                          </svg>
+                          <div>
+                            <h6 class="text-uppercase">Preços Acessíveis</h6>
+                            <p class="mb-0 text-muted text-sm">Qualidade Garantida</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="megamenu-services-item">
+                          <svg class="svg-icon megamenu-services-icon">
+                            <use xlink:href="#customer-support-1"> </use>
+                          </svg>
+                          <div>
+                            <h6 class="text-uppercase">(21) 9.1234-5678</h6>
+                            <p class="mb-0 text-muted text-sm">Atendimento Humanizado</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 d-flex">
+                        <div class="megamenu-services-item">
+                          <svg class="svg-icon megamenu-services-icon">
+                            <use xlink:href="#secure-payment-1"> </use>
+                          </svg>
+                          <div>
+                            <h6 class="text-uppercase">Segurança</h6>
+                            <p class="mb-0 text-muted text-sm">Pagamentos Seguros</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 d-none d-lg-block position-relative"><img class="bg-image" src="./dist/assets/img/img-menu-2" alt=""></div>
+                </div>
+              </div>
+            </li>
+            <!-- Multi level dropdown end-->
+            <li class="nav-item"><a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center justify-content-between justify-content-lg-end mt-1 mb-2 my-lg-0">
+            <!-- Search Button-->
+            <div class="nav-item navbar-icon-link" data-bs-toggle="search">
+              <svg class="svg-icon">
+                <use xlink:href="#search-1"> </use>
+              </svg>
+            </div>
+            <!-- User Not Logged - link to login page-->
+            <div class="nav-item"><a class="navbar-icon-link" href="customer-login.html">
+                <svg class="svg-icon">
+                  <use xlink:href="#male-user-1"> </use>
+                </svg><span class="text-sm ms-2 ms-lg-0 text-uppercase text-sm fw-bold d-none d-sm-inline d-lg-none">Log in </span></a></div>
+            <!-- Cart Dropdown-->
+            <div class="nav-item dropdown"><a class="navbar-icon-link d-lg-none" href="#">
+                <svg class="svg-icon">
+                  <use xlink:href="#cart-1"> </use>
+                </svg><span class="text-sm ms-2 ms-lg-0 text-uppercase text-sm fw-bold d-none d-sm-inline d-lg-none">View cart</span></a>
+              <div class="d-none d-lg-block"><a class="navbar-icon-link" id="cartdetails" href="#" data-bs-target="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <svg class="svg-icon">
+                    <use xlink:href="#cart-1"> </use>
+                  </svg>
+                  <div class="navbar-icon-link-badge">3 </div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-animated dropdown-menu-end p-4" aria-labelledby="cartdetails">
+                  <div class="navbar-cart-product-wrapper">
+                    <!-- cart item-->
+                    <div class="navbar-cart-product">
+                      <div class="d-flex align-items-center"><a href="detail.html"><img class="img-fluid navbar-cart-product-image" src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/img/product/product-square-ian-dooley-347968-unsplash.jpg" alt="..."></a>
+                        <div class="w-100"><a class="navbar-cart-product-close" href="#"><i class="fa fa-times"> </i></a>
+                          <div class="ps-3"> <a class="navbar-cart-product-link" href="detail.html">Skull Tee</a><small class="d-block text-muted">Quantity: 1 </small><strong class="d-block text-sm">$75.00 </strong></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- cart item-->
+                    <div class="navbar-cart-product">
+                      <div class="d-flex align-items-center"><a href="detail.html"><img class="img-fluid navbar-cart-product-image" src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/img/product/product-square-kyle-loftus-596319-unsplash.jpg" alt="..."></a>
+                        <div class="w-100"><a class="navbar-cart-product-close" href="#"><i class="fa fa-times"> </i></a>
+                          <div class="ps-3"> <a class="navbar-cart-product-link" href="detail.html">Transparent Blouse</a><small class="d-block text-muted">Quantity: 1 </small><strong class="d-block text-sm">$75.00 </strong></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- cart item-->
+                    <div class="navbar-cart-product">
+                      <div class="d-flex align-items-center"><a href="detail.html"><img class="img-fluid navbar-cart-product-image" src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/img/product/product-square-serrah-galos-494312-unsplash.jpg" alt="..."></a>
+                        <div class="w-100"><a class="navbar-cart-product-close" href="#"><i class="fa fa-times"> </i></a>
+                          <div class="ps-3"> <a class="navbar-cart-product-link" href="detail.html">White Tee</a><small class="d-block text-muted">Quantity: 1 </small><strong class="d-block text-sm">$75.00 </strong></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- total price-->
+                  <div class="navbar-cart-total"><span class="text-uppercase text-muted">Total</span><strong class="text-uppercase">$75.00</strong></div>
+                  <!-- buttons-->
+                  <div class="d-flex justify-content-between"><a class="btn btn-link text-dark me-3" href="#">View Cart <i class="fa-arrow-right fa"></i></a><a class="btn btn-outline-dark" href="checkout1.html">Checkout</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /Navbar -->
+    <!-- Fullscreen search area-->
+    <div class="search-area-wrapper">
+      <div class="search-area d-flex align-items-center justify-content-center">
+        <div class="close-btn">
+          <svg class="svg-icon svg-icon-light w-3rem h-3rem">
+            <use xlink:href="#close-1"> </use>
+          </svg>
+        </div>
+        <form class="search-area-form" action="#">
+          <div class="mb-4 position-relative">
+            <input class="search-area-input" type="search" name="search" id="search" placeholder="What are you looking for?">
+            <button class="search-area-button" type="submit">
+              <svg class="svg-icon">
+                <use xlink:href="#search-1"> </use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- /Fullscreen search area-->
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb justify-content-center no-border mb-0">
+            <li class="breadcrumb-item"><a class="" href="/">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Customer Zone</li>
+          </ol>
+        </nav>
+        <div class="hero-content pb-5 text-center">
+          <h1 class="hero-heading">Customer Zone</h1>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="justify-content-center row">
+        <div class="col-lg-5">
+          <div class="block">
+            <div class="block-header">
+              <h6 class="text-uppercase mb-0">Login</h6>
+            </div>
+            <div class="block-body">
+              <p class="lead">Already our customer?</p>
+              <p class="text-muted">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+              <hr>
+              <form class="">
+                <div class="mb-4"><label class="form-label" for="email_1">Email</label><input type="text" id="email_1" class="form-control"></div>
+                <div class="mb-4"><label class="form-label" for="password">Password</label><input type="password_1" id="password" class="form-control"></div>
+                <div class="mb-4"><button type="submit" class="btn btn-outline-dark"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="right-to-bracket" class="svg-inline--fa fa-right-to-bracket me-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <path fill="currentColor" d="M352 96h64c17.7 0 32 14.3 32 32V384c0 17.7-14.3 32-32 32H352c-17.7 0-32 14.3-32 32s14.3 32 32 32h64c53 0 96-43 96-96V128c0-53-43-96-96-96H352c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-7.5 177.4c4.8-4.5 7.5-10.8 7.5-17.4s-2.7-12.9-7.5-17.4l-144-136c-7-6.6-17.2-8.4-26-4.6s-14.5 12.5-14.5 22v72H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H160v72c0 9.6 5.7 18.2 14.5 22s19 2 26-4.6l144-136z"></path>
+                    </svg> Log in</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="block">
+            <div class="block-header">
+              <h6 class="text-uppercase mb-0">New account</h6>
+            </div>
+            <div class="block-body">
+              <p class="lead">Not our registered customer yet?</p>
+              <p class="text-muted">With registration with us new world of fashion, fantastic discounts and much more opens to you! The whole process will not take you more than a minute!</p>
+              <p class="text-muted">If you have any questions, please feel free to <a href="/contact">contact us</a>, our customer service center is working for you 24/7.</p>
+              <hr>
+              <form class="">
+                <div class="mb-4"><label class="form-label" for="name">Name</label><input type="text" id="name" class="form-control"></div>
+                <div class="mb-4"><label class="form-label" for="email">Email</label><input type="text" id="email" class="form-control"></div>
+                <div class="mb-4"><label class="form-label" for="passwordRegister">Password</label><input type="password" id="passwordRegister" class="form-control"></div>
+                <div class="mb-4"><button type="submit" class="btn btn-outline-dark"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="user" class="svg-inline--fa fa-user me-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M272 304h-96C78.8 304 0 382.8 0 480c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32C448 382.8 369.2 304 272 304zM48.99 464C56.89 400.9 110.8 352 176 352h96c65.16 0 119.1 48.95 127 112H48.99zM224 256c70.69 0 128-57.31 128-128c0-70.69-57.31-128-128-128S96 57.31 96 128C96 198.7 153.3 256 224 256zM224 48c44.11 0 80 35.89 80 80c0 44.11-35.89 80-80 80S144 172.1 144 128C144 83.89 179.9 48 224 48z"></path>
+                    </svg>Register</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Footer-->
+  <footer class="main-footer">
+    <!-- Services block-->
+    <div class="bg-gray-100 text-dark-700 py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 service-column">
+            <svg class="svg-icon service-icon">
+              <use xlink:href="#delivery-time-1"> </use>
+            </svg>
+            <div class="service-text">
+              <h6 class="text-uppercase">Frete Grátis &amp; Entrega Rápida</h6>
+            </div>
+          </div>
+          <div class="col-lg-4 service-column">
+            <svg class="svg-icon service-icon">
+              <use xlink:href="#money-1"> </use>
+            </svg>
+            <div class="service-text">
+              <h6 class="text-uppercase">Preços Acessíveis</h6>
+              <p class="text-muted fw-light text-sm mb-0">Qualidade Garantida</p>
+            </div>
+          </div>
+          <div class="col-lg-4 service-column">
+            <svg class="svg-icon service-icon">
+              <use xlink:href="#customer-support-1"> </use>
+            </svg>
+            <div class="service-text">
+              <h6 class="text-uppercase">(DDD)9.1234-5678</h6>
+              <p class="text-muted fw-light text-sm mb-0">Atendimento Humanizado</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Main block - menus, subscribe form-->
+    <div class="py-6 bg-gray-300 text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="fw-bold text-uppercase text-lg text-dark mb-3">Nossos Canais<span class="text-primary">.</span></div>
+            <p>Sigam a gente nas redes sociais e saibam das novidades!</p>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="lead text-primary-hover" href="#" target="_blank" title="twitter"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a class="lead text-primary-hover" href="#" target="_blank" title="facebook"><i class="fab fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="lead text-primary-hover" href="#" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a class="lead text-primary-hover" href="#" target="_blank" title="pinterest"><i class="fab fa-pinterest"></i></a></li>
+              <li class="list-inline-item"><a class="lead text-primary-hover" href="#" target="_blank" title="vimeo"><i class="fab fa-vimeo"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+            <h6 class="text-uppercase text-dark mb-3">Nossas Categorias</h6>
+            <ul class="list-unstyled">
+              <li> <a class="text-muted" href="#">Moda Feminina</a></li>
+              <li> <a class="text-muted" href="#">Moda Masculina</a></li>
+              <li> <a class="text-muted" href="#">Moda Infantil</a></li>
+              <li> <a class="text-muted" href="#">Outlet</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+            <h6 class="text-uppercase text-dark mb-3">Sobre Nós</h6>
+            <ul class="list-unstyled">
+              <li> <a class="text-muted" href="#">Quem Somos</a></li>
+              <li> <a class="text-muted" href="#">Responsabilidade Social</a></li>
+              <li> <a class="text-muted" href="#">Termos e Condições</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h6 class="text-uppercase text-dark mb-3">Daily Offers & Discounts</h6>
+            <p class="mb-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+            <form action="#" id="newsletter-form">
+              <div class="input-group mb-3">
+                <input class="form-control bg-transparent border-secondary border-end-0" type="email" placeholder="Your Email Address" aria-label="Your Email Address">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary border-start-0" type="submit"> <i class="fa fa-paper-plane text-lg text-dark"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright section of the footer-->
+    <div class="py-4 fw-light bg-gray-800 text-gray-300">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-md-0">&copy; 2020 Your company. All rights reserved.</p>
+          </div>
+          <div class="col-md-6">
+            <ul class="list-inline mb-0 mt-2 mt-md-0 text-center text-md-end">
+              <li class="list-inline-item"><img class="w-2rem" src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/img/visa.svg" alt="..."></li>
+              <li class="list-inline-item"><img class="w-2rem" src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/img/mastercard.svg" alt="..."></li>
+              <li class="list-inline-item"><img class="w-2rem" src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/img/paypal.svg" alt="..."></li>
+              <li class="list-inline-item"><img class="w-2rem" src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/img/western-union.svg" alt="..."></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /Footer end-->
+  <div id="scrollTop"><i class="fa fa-long-arrow-alt-up"></i></div>
+  <button class="btn btn-primary btn-sm d-none d-lg-block" type="button" data-bs-toggle="collapse" data-bs-target="#style-switch" id="style-switch-button"><i class="fa fa-cog fa-2x"></i></button>
+  <div class="collapse" id="style-switch">
+    <div class="p-3">
+      <h6 class="text-uppercase mb-4">Select theme colour</h6>
+      <form class="mb-3">
+        <select class="form-select style-switch-select" name="colour" id="colour">
+          <option value="">select colour variant</option>
+          <option value="css/style.default.7acfaf01.css">blue</option>
+          <option value="css/style.pink.bcb9f645.css">pink</option>
+          <option value="css/style.green.eba38840.css">green</option>
+          <option value="css/style.red.e64fe507.css">red</option>
+          <option value="css/style.violet.00703a6d.css">violet</option>
+        </select>
+      </form>
+      <p class="text-muted text-sm">Stylesheet switching is done with JavaScript and can cause a blink while page loads. This will not happen in your production code.</p>
+    </div>
+  </div>
+  <!-- JavaScript files-->
+  <script>
+    // ------------------------------------------------------- //
+    //   Inject SVG Sprite - 
+    //   see more here 
+    //   https://css-tricks.com/ajaxing-svg-sprite/
+    // ------------------------------------------------------ //
+    function injectSvgSprite(path) {
+
+      var ajax = new XMLHttpRequest();
+      ajax.open("GET", path, true);
+      ajax.send();
+      ajax.onload = function (e) {
+        var div = document.createElement("div");
+        div.className = 'd-none';
+        div.innerHTML = ajax.responseText;
+        document.body.insertBefore(div, document.body.childNodes[0]);
+      }
+    }
+    // this is set to Bootstrapious website as you cannot 
+    // inject local SVG sprite (using only 'icons/orion-svg-sprite.a4dea202.svg' path)
+    // while using file:// protocol
+    // pls don't forget to change to your domain :)
+    injectSvgSprite('https://demo.bootstrapious.com/sell/1-2-0/icons/orion-svg-sprite.svg');
+
+  </script>
+  <!-- jQuery-->
+  <script src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/vendor/owl.carousel/owl.carousel.js"></script>
+  <script src="dist/assets/js/carousel-min.js"></script>
+  <!-- Bootstrap JavaScript Bundle (Popper.js included)-->
+  <script src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Owl Carousel-->
+  <script src="dist/assets/js/owlCarousel.js"></script>
+  <script src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
+  <!-- NoUI Slider (price slider)-->
+  <script src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/vendor/nouislider/nouislider.min.js"></script>
+  <!-- Smooth scrolling-->
+  <script src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+  <!-- Lightbox gallery-->
+  <script src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/vendor/glightbox/js/glightbox.min.js"> </script>
+  <!-- Object Fit Images - Fallback for browsers that don't support object-fit-->
+  <script src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/vendor/object-fit-images/ofi.min.js"></script>
+  <script>
+    var basePath = ''
+  </script>
+  <script src="dist/assets/js/theme.js"></script>
+  <script src="https://d19m59y37dris4.cloudfront.net/sell/2-0-1/vendor/jquery.cookie/jquery.cookie.js"> </script>
+  <script src="dist/assets/js/theme-color.js"></script>
+</body>
+
+</html>
